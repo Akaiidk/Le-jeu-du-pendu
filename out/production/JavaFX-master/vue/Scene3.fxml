@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="800.0" maxWidth="400.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="400.0" styleClass="mainPane" stylesheets="@SceneStylesheet.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="1.0" maxHeight="800.0" maxWidth="400.0" prefHeight="800.0" prefWidth="400.0">
+         <children>
+            <Label fx:id="_victoryStatement" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="400.0" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="30.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="_victoryDescription" alignment="CENTER" contentDisplay="CENTER" prefWidth="400.0" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <ImageView fx:id="_imageTop" fitHeight="100.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+               </VBox.margin></ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="400.0">
+               <children>
+                  <ImageView fx:id="_imageLeft" fitHeight="150.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+                     <rotationAxis>
+                        <Point3D y="1.0" />
+                     </rotationAxis>
+                  </ImageView>
+                  <GridPane fx:id="_gridWord" alignment="CENTER" maxHeight="0.0" prefHeight="0.0" prefWidth="280.0" styleClass="gridPaneLabel">
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+                  <ImageView fx:id="_imageRight" fitHeight="150.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <rotationAxis>
+                        <Point3D y="1.0" />
+                     </rotationAxis></ImageView>
+               </children>
+            </HBox>
+            <ImageView fx:id="_imageBottom" fitHeight="100.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="50.0" left="30.0" right="30.0" top="50.0" />
+               </VBox.margin></ImageView>
+            <Label fx:id="_retryStatement" alignment="CENTER" contentDisplay="CENTER" prefWidth="400.0" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+      <Pane fx:id="_navbarPane" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</Pane>
