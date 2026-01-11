@@ -19,6 +19,9 @@ Le projet suit une structure organisée pour séparer la logique métier de l'af
 * **Controller** : Lien entre l'utilisateur et la logique (gestion des clics, mise à jour de l'affichage).
 * **CSS** : Personnalisation du style visuel (boutons, couleurs, polices).
 
+## 📸 Aperçu
+<img width="400" height="798" alt="Capture d’écran 2026-01-11 à 03 24 48" src="https://github.com/user-attachments/assets/7780a79f-63a5-4d63-a2a3-42501e734125" />
+
 ## 🚀 Installation et Lancement
 
 ### Prérequis
