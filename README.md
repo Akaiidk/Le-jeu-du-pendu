@@ -33,9 +33,3 @@ Pour ouvrir la maquette
 
 ### Prérequis
 * **Java JDK 17** ou supérieur.
-
-### Étapes
-1. **Cloner le projet** :
-   ```bash
-   git clone [https://github.com/Akaiidk/Le-jeu-du-pendu.git](https://github.com/Akaiidk/Le-jeu-du-pendu.git)
-   cd Le-jeu-du-pendu
